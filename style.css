@@ -1,0 +1,152 @@
+body {
+    background-color: #92c2b6;
+    margin: 0px;
+}
+#main{
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-top: 8%;
+    position: relative;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #707070;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #707070;
+}
+#GoogleG1{
+    width: 240px;
+    height: 200px;
+    background: url("1x/TreeLeaves.png") no-repeat;
+    position: absolute;
+    top: 38px;
+    left: 30px;
+    
+}
+#GoogleO1{
+    width: 96px;
+    height: 98px;
+    background: url("1x/TeaEmpty.png") no-repeat;
+    position: absolute;
+    top: 110px;
+    left: 275px;
+}
+#GoogleOG{
+    width: 214px;
+    height: 160px;
+    background: url("1x/Zen.png") no-repeat;
+    position: absolute;
+    top: 103px;
+    left: 385px;
+}
+#GoogleL1{
+    width: 29px;
+    height: 142px;
+    background: url("1x/Ikebana.png") no-repeat;
+    position: absolute;
+    top: 60px;
+    left: 620px;
+}
+#GoogleE1{
+    width: 98px;
+    height: 98px;
+    background: url("1x/KinHide.png") no-repeat;
+    position: absolute;
+    top: 108px;
+    left: 670px;
+}
+
+#ParaInit{
+    position: absolute;
+    top:340px;
+    
+}
+#ParaBons{
+    position: absolute;
+    top:340px;
+    opacity:0%;
+}
+#ParaHagi{
+    position: absolute;
+    top:340px;
+    opacity:0%;
+}
+#ParaZen{
+    position: absolute;
+    top:340px;
+    opacity:0%;
+}
+#ParaIke{
+    position: absolute;
+    top:340px;
+    opacity:0%;
+}
+#ParaKin{
+    position: absolute;
+    top:340px;
+    opacity:0%;
+}
+#textBackground{
+    background-color: white;
+    position: absolute;
+    top:340px;
+    width:100%;
+    height:150px;
+}
+
+#GoogleG1:hover{
+    background: url("1x/TreeBase.png") no-repeat;
+}
+#GoogleG1:hover ~ #ParaInit{
+    opacity: 0%;
+}
+#GoogleG1:hover ~ #ParaBons{
+    opacity: 100%;
+}
+
+#GoogleO1:hover{
+    background: url("1x/TeaFull.png") no-repeat;
+}
+#GoogleO1:hover ~ #ParaInit{
+    opacity: 0%;
+}
+#GoogleO1:hover ~ #ParaHagi{
+    opacity: 100%;
+}
+
+
+#GoogleOG:hover ~ #ParaInit{
+    opacity: 0%;
+}
+#GoogleOG:hover ~ #ParaZen{
+    opacity: 100%;
+}
+
+
+#GoogleL1:hover ~ #ParaInit{
+    opacity: 0%;
+}
+#GoogleL1:hover ~ #ParaIke{
+    opacity: 100%;
+}
+
+#GoogleE1:hover{
+    background: url("1x/KinShow.png") no-repeat;
+}
+#GoogleE1:hover ~ #ParaInit{
+    opacity: 0%;
+}
+#GoogleE1:hover ~ #ParaKin{
+    opacity: 100%;
+}
